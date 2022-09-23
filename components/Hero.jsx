@@ -14,14 +14,15 @@ function Hero() {
 
             <div className="container flex items-center justify-start h-full py-32 mx-auto">
                 <div className="z-10 flex flex-col px-5 xl:flex max-w-xl">
-                    <h1 className=" mt-1 text-7xl font-black text-white sm:text-9xl sm:mx-0">kissat?<div className="">Kahvi?  </div>
+                    <h1 className=" mt-1 text-7xl font-black text-white sm:text-9xl sm:mx-0">kissat?<div>Kahvi?  </div>
                     </h1>
-                    <p className="w-full my-6 text-xl font-bold text-gray-200">Purrfect! Olet täysin oikeassa paikassa 🐈</p>
+                    <p className="w-full my-6 text-xl font-bold text-gray-200"><span className="text-pink-400">Purrfect!</span>  Olet täysin oikeassa paikassa 🐈</p>
                     <div className="flex md:mt-10 gap-3">
                         <ButtonPrimary text="Varaa pöytä" />
                         <ButtonSecondary text="Ota yhteyttä" />
                     </div>
                 </div>
+
             </div>
         </section >
     )
