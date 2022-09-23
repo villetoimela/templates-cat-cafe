@@ -10,6 +10,7 @@ module.exports = {
         sans: ["Montserrat", "ui-sans-serif", "system-ui"],
         serif: ["ui-serif", "Georgia"],
         mono: ["ui-monospace", "SFMono-Regular"],
+        AmaticSC: ["Amatic SC", "ui-sans-serif", "system-ui"],
       },
     },
   },
