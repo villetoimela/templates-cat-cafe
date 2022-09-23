@@ -1,4 +1,6 @@
 import React from 'react'
+import ButtonPrimary from './buttons/button-primary'
+import ButtonSecondary from './buttons/button-secondary'
 
 function Hero() {
     return (
@@ -16,8 +18,8 @@ function Hero() {
                     </h1>
                     <p className="w-full my-6 text-xl font-bold text-gray-200">Purrfect! Olet täysin oikeassa paikassa 🐈</p>
                     <div className="flex md:mt-10 gap-3">
-                        <a href="#" className="px-8 py-3 text-center font-bold text-sm sm:text-base text-white bg-pink-500 border-2 border-pink-500 rounded-xl hover:bg-transparent duration-200">Varaa pöytä</a>
-                        <a href="#" className="px-8 py-3 text-center font-bold text-sm sm:text-base text-white border-2 border-pink-500 rounded-xl hover:bg-pink-500 duration-200">Ota yhteyttä</a>
+                        <ButtonPrimary text="Varaa pöytä" />
+                        <ButtonSecondary text="Ota yhteyttä" />
                     </div>
                 </div>
             </div>
