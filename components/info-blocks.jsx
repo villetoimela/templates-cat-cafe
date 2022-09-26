@@ -7,7 +7,7 @@ const InfoBlocks = () => {
         <section className="py-14 bg-gradient-to-t from-purple-100 via-red-100 to-purple-100">
             <div className="flex flex-col px-8 mx-auto space-y-12 max-w-7xl xl:px-12">
                 <div className="flex justify-center items-center">
-                    <img className="h-auto w-60 animate-slowSpin" src="/kissa-yingyang.png" alt="" />
+                    <img className="h-auto w-60 animate-slowSpin drop-shadow-2xl" src="/kissa-yingyang.png" alt="" />
                 </div>
 
                 <div className="relative">
