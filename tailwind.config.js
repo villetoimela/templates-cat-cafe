@@ -4,6 +4,7 @@ module.exports = {
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
+
   theme: {
     extend: {
       fontFamily: {
@@ -11,6 +12,16 @@ module.exports = {
         serif: ["ui-serif", "Georgia"],
         mono: ["ui-monospace", "SFMono-Regular"],
         AmaticSC: ["Amatic SC", "ui-sans-serif", "system-ui"],
+      },
+
+      keyframes: {
+        slowSpin: {
+          '0%': { transform: 'rotate(0.0deg)' },
+          '100%': { transform: 'rotate(360deg)' },
+        }
+      },
+      animation: {
+        'slowSpin': 'slowSpin 5s linear infinite',
       },
     },
   },
