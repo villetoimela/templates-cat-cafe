@@ -12,7 +12,7 @@ function Hero() {
             <div className="h-24 w-24 rounded-full bg-purple-400 absolute blur-3xl bottom-0"></div>
             {/*blurry blobs */}
 
-            <div className="container flex items-center justify-start h-full py-32 mx-auto">
+            <div className="container max-w-7xl flex items-center justify-start h-full py-32 mx-auto">
                 <div className="z-10 flex flex-col px-5 xl:flex max-w-xl">
                     <h1 className=" mt-1 text-7xl font-black text-white sm:text-9xl sm:mx-0">Kissat?<div>Kahvi?  </div>
                     </h1>
