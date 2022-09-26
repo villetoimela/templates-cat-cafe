@@ -1,6 +1,8 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import InfoBlock from './info-block'
 import InfoBlockReverse from './info-block-reverse'
+
 
 const InfoBlocks = () => {
     return (
