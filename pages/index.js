@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Hero from '../components/hero'
+import InfoBlocks from '../components/info-blocks'
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
 
       <main>
         <Hero />
+        <InfoBlocks />
       </main >
     </div >
   )

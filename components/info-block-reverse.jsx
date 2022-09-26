@@ -5,10 +5,10 @@ const InfoBlockReverse = (props) => {
     return (
         <div className="flex flex-col mb-8 sm:flex-row">
             <div className="flex items-center mb-8 sm:w-1/2 md:w-5/12">
-                <img src={props.imgSrc} alt="" />
+                <img className="drop-shadow-2xl" src={props.imgSrc} alt="" />
             </div>
             <div className="flex flex-col text-center justify-center mt-5 mb-8 md:mt-0 sm:w-1/2 md:w-7/12 sm:pl-16">
-                <h3 className="mt-2 text-3xl sm:text-left md:text-4xl">{props.title}</h3>
+                <h3 className="mt-2 text-6xl sm:text-left md:text-7xl font-AmaticSC">{props.title}</h3>
                 <p className="my-5 text-lg text-gray-700 text md:text-left">{props.text}</p>
                 <div className="flex justify-center sm:justify-start ">
                     <ButtonPrimary
