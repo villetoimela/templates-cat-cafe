@@ -18,8 +18,12 @@ function Hero() {
                     </h1>
                     <p className="w-full my-6 text-xl font-bold text-gray-200"><span className="text-pink-400 text-2xl">Purrrfect!</span>  Olet täysin oikeassa paikassa 🐈</p>
                     <div className="flex md:mt-10 gap-3">
-                        <ButtonPrimary text="Varaa pöytä" />
-                        <ButtonSecondary text="Ota yhteyttä" />
+                        <ButtonPrimary
+                            styles="font-bold text-white bg-pink-500 border-2 border-pink-500 hover:bg-pink-600"
+                            text="Varaa pöytä"
+                            url="#"
+                        />
+                        <ButtonSecondary text="Ota yhteyttä" url="#" />
                     </div>
                 </div>
                 <div className="absolute w-screen bottom-0 left-1/2 -translate-x-1/2">
