@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import Hero from '../components/hero'
-import InfoBlocks from '../components/info-blocks'
+import { Hero } from '../components/hero'
+import { InfoBlocks } from '../components/info-blocks'
 
 export default function Home() {
   return (

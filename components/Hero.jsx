@@ -2,7 +2,7 @@ import React from 'react'
 import ButtonPrimary from './buttons/button-primary'
 import ButtonSecondary from './buttons/button-secondary'
 
-function Hero() {
+export function Hero() {
     return (
         <section className="relative overflow-hidden w-full h-screen bg-cover bg-top" style={{ backgroundImage: "url(https://images.unsplash.com/photo-1478098711619-5ab0b478d6e6?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1170&amp;q=80)" }}>
 
@@ -39,5 +39,3 @@ function Hero() {
         </section >
     )
 }
-
-export default Hero
