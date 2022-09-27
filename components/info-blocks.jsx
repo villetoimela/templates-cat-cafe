@@ -49,7 +49,7 @@ export const InfoBlocks = () => {
                     imgSrc="/kissa-no-bg-5.png"
                     title="Käytkö meillä usein?"
                     text="Liity meidän Cat Clubiin ja saa ekslusiivisia tarjouksia, sekä tietoa esim. tapahtumista ensimmäisenä! "
-                    buttonText="Ota yhteyttä"
+                    buttonText="Liity klubiin"
                 />
 
                 <InfoBlockReverse
