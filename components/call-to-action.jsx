@@ -1,6 +1,5 @@
 import React from 'react'
 import ButtonSecondary from './buttons/button-secondary'
-import Image from 'next/image'
 
 const CallToAction = () => {
     return (
