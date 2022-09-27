@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
@@ -7,6 +8,10 @@ module.exports = {
 
   theme: {
     extend: {
+      colors: {
+        darkPurple: "#1f0833"
+      },
+
       fontFamily: {
         sans: ["Montserrat", "ui-sans-serif", "system-ui"],
         serif: ["ui-serif", "Georgia"],
