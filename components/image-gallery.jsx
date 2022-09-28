@@ -4,7 +4,7 @@ import ImageGalleryCard from './image-gallery-card'
 
 const ImageGallery = () => {
     return (
-        <section className="bg-gradient-to-t from-purple-200 via-red-100 to-purple-200">
+        <section className="bg-gradient-to-t from-purple-200 via-purple-50 to-purple-200">
             <div className="py-14 pl-4 pr-4 mx-auto ml-auto mr-auto bg-top bg-cover max-w-7xl md:px-24 lg:px-12 lg:py-20">
 
                 <div className="mb-10 ml-auto mr-auto bg-top bg-cover max-w-7xl md:mx-auto sm:text-center lg:max-w-2xl md:mb-16">
