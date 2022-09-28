@@ -13,7 +13,7 @@ const Footer = () => {
 
                     <div className="flex justify-center space-x-6 pb-5">
                         <Link href={"/"}>
-                            <a className="text-pink-300 hover:scale-110 duration-150">
+                            <a className="text-pink-400 hover:scale-110 duration-150">
                                 <svg
                                     width="36px"
                                     height="36px"
@@ -32,7 +32,7 @@ const Footer = () => {
                             </a>
                         </Link>
                         <Link href={"/"}>
-                            <a className="text-pink-300 hover:scale-110 duration-150">
+                            <a className="text-pink-400 hover:scale-110 duration-150">
                                 <svg
                                     width="36px"
                                     height="36px"
@@ -51,7 +51,7 @@ const Footer = () => {
                     <div className="w-full md:block hidden max-w-7xl h-px bg-gradient-to-r from-white via-purple-700 to-white mx-auto"></div>
                     <div className="w-full md:hidden block max-w-7xl h-px bg-gradient-to-r from-purple-700 to-white mx-auto"></div>
 
-                    <div className="grid grid-cols-2 gap-4 text-purple-50 p-6 text-sm font-medium sm:grid-cols-3 lg:grid-cols-6">
+                    <div className="grid grid-cols-2 gap-4 text-pink-400 p-6 text-sm font-medium sm:grid-cols-3 lg:grid-cols-6">
                         <FooterLink text="Tutustu" />
                         <FooterLink text="Menu" />
                         <FooterLink text="Varaa pöytä" />
