@@ -8,11 +8,11 @@ const Navbar = () => {
     const [navbarOpen, setNavbarOpen] = React.useState(false);
     const close = () => setNavbarOpen(false);
 
-    const genericHamburgerLine = `h-[3px] rounded-xl w-6 my-0.5 bg-pink-400 transition ease transform duration-300`;
+    const genericHamburgerLine = `h-[3px] rounded-xl w-6 my-0.5 bg-white transition ease transform duration-300`;
 
     return (
-        <nav className="fixed top-0 py-5 z-40 bg-transparent backdrop-blur-sm bg-opacity-40 w-full px-8 ">
-            <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
+        <nav className="fixed top-0 py-5 z-40 bg-darkPurple backdrop-blur-sm bg-opacity-50 w-full px-8 ">
+            <div className="container px-4 mx-auto w-full flex flex-wrap items-center justify-between">
                 <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
                     <Link
                         href={"/"}>
@@ -52,7 +52,7 @@ const Navbar = () => {
                 </div>
                 <div
                     className={
-                        "lg:flex items-center" + (navbarOpen ? "  flex" : " hidden")
+                        "lg:flex items-center w-full justify-center" + (navbarOpen ? " flex" : " hidden")
                     }>
                     <ul
                         onClick={close}
