@@ -6,7 +6,7 @@ import InfoBlockReverse from './info-block-reverse'
 
 export const InfoBlocks = () => {
     return (
-        <section className="py-14 bg-gradient-to-t from-purple-100 via-red-100 to-purple-100">
+        <section className="py-14 md:py-20 bg-gradient-to-t from-purple-200 via-red-100 to-purple-200">
             <div className="flex flex-col px-8 mx-auto space-y-12 max-w-7xl xl:px-12">
                 <div className="flex justify-center items-center">
                     <img className="h-auto w-60 animate-slowSpin drop-shadow-2xl" src="/kissa-yingyang.png" alt="" />
@@ -48,7 +48,7 @@ export const InfoBlocks = () => {
                 <InfoBlock
                     imgSrc="/kissa-no-bg-5.png"
                     title="Käytkö meillä usein?"
-                    text="Liity meidän Cat Clubiin ja saa ekslusiivisia tarjouksia, sekä tietoa esim. tapahtumista ensimmäisenä! "
+                    text="Liity meidän Cat Clubiin ja saa eksklusiivisia tarjouksia, sekä tietoa esim. tapahtumista ensimmäisenä! "
                     buttonText="Liity klubiin"
                 />
 
