@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import CallToAction from '../components/call-to-action'
+import Footer from '../components/footer'
 import { Hero } from '../components/Hero'
+import ImageGallery from '../components/image-gallery'
 import { InfoBlocks } from '../components/info-blocks'
 
 export default function Home() {
@@ -16,6 +18,8 @@ export default function Home() {
         <Hero />
         <InfoBlocks />
         <CallToAction />
+        <ImageGallery />
+        <Footer />
       </main >
     </div >
   )
