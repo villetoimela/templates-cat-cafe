@@ -11,7 +11,7 @@ const CallToAction = () => {
                 <div className="lg:w-1/2 w-full flex flex-col justify-center relative items-end">
                     <div className="lg:w-auto w-full flex flex-col sm:items-center sm:text-center lg:text-left">
                         <ButtonSecondary
-                            styles="lg:w-full mt-10 lg:mb-0 mb-5 text-base font-normal"
+                            styles="lg:w-full mt-10 mb-3 text-base font-normal"
                             text="Varaa pöytä"
                             url="#"
                         />
