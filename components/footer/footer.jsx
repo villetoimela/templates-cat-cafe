@@ -11,7 +11,7 @@ const Footer = () => {
             <div className="max-w-screen-xl px-4 py-12 mx-auto sm:px-6 lg:px-8">
                 <div className="max-w-3xl mx-auto space-y-6">
 
-                    <div className="flex justify-center space-x-6 pb-5">
+                    <div className="flex justify-center space-x-1 pb-5">
                         <Link href={"/"}>
                             <a className="text-pink-400 hover:scale-110 duration-150">
                                 <svg

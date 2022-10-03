@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import CallToAction from '../components/call-to-action'
-import Footer from '../components/footer'
+import Footer from '../components/footer/footer'
 import { Hero } from '../components/Hero'
-import ImageGallery from '../components/image-gallery'
+import ImageGallery from '../components/image-gallery/image-gallery'
 import { InfoBlocks } from '../components/info-blocks'
 import Navbar from '../components/navbar/navbar'
 

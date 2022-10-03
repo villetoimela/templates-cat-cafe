@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
-import ButtonPrimary from './buttons/button-primary'
+import ButtonPrimary from '../components/buttons/button-primary'
 
 const InfoBlockReverse = (props) => {
     return (
