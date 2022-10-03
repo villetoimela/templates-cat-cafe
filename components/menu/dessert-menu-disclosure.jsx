@@ -54,7 +54,7 @@ export default function DessertMenuDisclosure(props) {
                             <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm sm:text-base font-medium text-gray-900">
                                 <div className="flex flex-col">
                                     {dessert.map(function (dessert, id) {
-                                        return (<div className="flex justify-between py-2"><p key={id}>{dessert.name}</p>{dessert.price}€</div>)
+                                        return (<div key={id} className="flex justify-between py-2"><p key={id}>{dessert.name}</p>{dessert.price}€</div>)
                                     })}
                                 </div>
                             </Disclosure.Panel>

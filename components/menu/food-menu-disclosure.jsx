@@ -57,7 +57,7 @@ export default function FoodMenuDisclosure(props) {
                             <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm sm:text-base font-medium text-gray-900">
                                 <div className="flex flex-col">
                                     {meals.map(function (meals, id) {
-                                        return (<div className="flex justify-between py-2"><p key={id}>{meals.name}</p>{meals.price}€</div>)
+                                        return (<div key={id} className="flex justify-between py-2"><p key={id}>{meals.name}</p>{meals.price}€</div>)
                                     })}
                                 </div>
                             </Disclosure.Panel>
