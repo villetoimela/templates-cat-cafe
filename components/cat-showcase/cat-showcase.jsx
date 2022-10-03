@@ -1,6 +1,6 @@
 import React from 'react'
 import CatCard from './cat-card'
-import CatShowcaseHeader from './cat-showcase-header'
+import PrimaryHeader from './cat-showcase-header'
 
 const CatShowcase = () => {
     return (
@@ -8,7 +8,7 @@ const CatShowcase = () => {
             <div className="px-12 mx-auto text-center max-w-7xl">
                 <div className="space-y-12 md:text-left">
 
-                    <CatShowcaseHeader
+                    <PrimaryHeader
                         title="Täällä pääset tutustumaan kissoihimme!"
                         text="Kaikki kissamme ovat aivan valloittavia omia persooniaan ja se tekeekin heistä vielä enemmän rakastettavia karvapalleroita! Kaikki ovat tietenkin kilttejä ja tottuneita ihmisiin :3"
                     />
