@@ -1,10 +1,8 @@
 import Head from 'next/head'
 import CallToAction from '../components/call-to-action'
-import Footer from '../components/footer/footer'
 import { Hero } from '../components/Hero'
 import ImageGallery from '../components/image-gallery/image-gallery'
 import { InfoBlocks } from '../components/info-blocks'
-import Navbar from '../components/navbar/navbar'
 
 export default function Home() {
   return (
@@ -20,7 +18,7 @@ export default function Home() {
         <InfoBlocks />
         <CallToAction
           mainText="Mitä sinä enää odotat?"
-          text="Ja tapaa iloiset kissakaverimme ❤️"
+          text="Ja tapaa iloiset kissakaverimme"
           buttonText="Varaa pöytä"
         />
 
