@@ -16,12 +16,12 @@ export default function Home() {
       </Head>
 
       <main>
-        <Navbar />
+
         <Hero />
         <InfoBlocks />
         <CallToAction />
         <ImageGallery />
-        <Footer />
+
       </main >
     </div >
   )
