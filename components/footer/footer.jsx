@@ -11,7 +11,7 @@ const Footer = () => {
             <div className="max-w-screen-xl px-4 py-12 mx-auto sm:px-6 lg:px-8">
                 <div className="max-w-3xl mx-auto space-y-6">
 
-                    <div className="flex justify-center space-x-1 pb-5">
+                    <div className="flex justify-center space-x-1">
                         <Link href={"/"}>
                             <a className="text-pink-400 hover:scale-110 duration-150">
                                 <svg
@@ -48,6 +48,12 @@ const Footer = () => {
                             </a>
                         </Link>
                     </div>
+                    <div className="text-purple-200">
+                        <p>Kissakuja 6</p>
+                        <p>40100 Jyväskylä</p>
+                        <p>040 513 7883</p>
+                    </div>
+
                     <div className="w-full md:block hidden max-w-7xl h-px bg-gradient-to-r from-white via-purple-700 to-white mx-auto"></div>
                     <div className="w-full md:hidden block max-w-7xl h-px bg-gradient-to-r from-purple-700 to-white mx-auto"></div>
 
