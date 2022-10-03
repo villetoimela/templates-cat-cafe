@@ -18,7 +18,12 @@ export default function Home() {
       <main>
         <Hero />
         <InfoBlocks />
-        <CallToAction />
+        <CallToAction
+          mainText="Mitä sinä enää odotat?"
+          text="Ja tapaa iloiset kissakaverimme ❤️"
+          buttonText="Varaa pöytä"
+        />
+
         <ImageGallery />
       </main >
     </div >
