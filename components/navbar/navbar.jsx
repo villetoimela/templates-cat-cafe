@@ -57,12 +57,12 @@ const Navbar = () => {
                     <ul
                         onClick={close}
                         className="flex flex-col lg:pt-0 pt-10 lg:space-y-0 space-y-6 lg:flex-row lg:space-x-12 list-none lg:ml-auto">
-                        <NavbarLink to="/tutustu" text="Tutustu" />
-                        <NavbarLink to="/" text="Menu" />
-                        <NavbarLink to="/" text="Varaa pöytä" />
-                        <NavbarLink to="/" text="Tapahtumat" />
-                        <NavbarLink to="/" text="Liity klubiin" />
-                        <NavbarLink to="/" text="Ota yhteyttä" />
+                        <NavbarLink to="tutustu" text="Tutustu" />
+                        <NavbarLink to="menu" text="Menu" />
+                        <NavbarLink to="" text="Varaa pöytä" />
+                        <NavbarLink to="" text="Tapahtumat" />
+                        <NavbarLink to="" text="Liity klubiin" />
+                        <NavbarLink to="" text="Ota yhteyttä" />
                     </ul>
                 </div>
             </div>
