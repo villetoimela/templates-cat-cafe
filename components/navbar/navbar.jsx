@@ -61,8 +61,7 @@ const Navbar = () => {
                         <NavbarLink to="menu" text="Menu" />
                         <NavbarLink to="varaa-poyta" text="Varaa pöytä" />
                         <NavbarLink to="tapahtumat" text="Tapahtumat" />
-                        <NavbarLink to="" text="Liity klubiin" />
-                        <NavbarLink to="" text="Ota yhteyttä" />
+                        <NavbarLink to="ota-yhteytta" text="Ota yhteyttä" />
                     </ul>
                 </div>
             </div>
