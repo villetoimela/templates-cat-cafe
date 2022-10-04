@@ -59,11 +59,9 @@ const ImageGallery = () => {
                         text="Kuten huomaamme, Mörri on myös meidän ihka oma linssilude"
                     />
                 </div>
-                <Fade bottom cascade duration={600}>
-                    <div className="flex justify-center items-center lg:pt-20 pt-14">
-                        <img className="h-auto w-60 animate-slowSpin drop-shadow-2xl" src="/kissa-yingyang.png" alt="" />
-                    </div>
-                </Fade>
+                <div className="flex justify-center items-center lg:pt-20 pt-14">
+                    <img className="h-auto w-60 animate-slowSpin drop-shadow-2xl" src="/kissa-yingyang.png" alt="" />
+                </div>
             </div>
         </section>
     )

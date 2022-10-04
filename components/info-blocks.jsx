@@ -9,11 +9,9 @@ export const InfoBlocks = () => {
     return (
         <section className="py-14 md:py-20 bg-gradient-to-t from-purple-200 via-purple-50 to-purple-200">
             <div className="flex flex-col px-8 mx-auto space-y-12 max-w-7xl xl:px-12">
-                <Fade bottom cascade duration={600}>
-                    <div className="flex justify-center items-center">
-                        <img className="h-auto w-60 animate-slowSpin drop-shadow-2xl" src="/kissa-yingyang.png" alt="" />
-                    </div>
-                </Fade>
+                <div className="flex justify-center items-center">
+                    <img className="h-auto w-60 animate-slowSpin drop-shadow-2xl" src="/kissa-yingyang.png" alt="" />
+                </div>
                 <Fade bottom cascade duration={600}>
                     <div className="relative">
                         <h2 className="w-full text-7xl text-center sm:text-8xl lg:text-9xl text-gray-900 font-AmaticSC ">Tervetuloa kissakahvilan sivuille</h2>
