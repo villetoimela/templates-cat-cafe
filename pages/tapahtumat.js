@@ -9,7 +9,7 @@ const Tapahtumat = () => {
 
             <section className="w-full bg-gradient-to-t from-purple-200 via-purple-50 to-purple-200 pt-44 pb-14 lg:pb-20">
                 <PrimaryHeader
-                    title="Sillointällöin meillä tapahtuu!"
+                    title="Silloin tällöin meillä tapahtuu!"
                     text="Meiltä löytyy esimerkiksi Kissajoogaa, sleepover partyjä kahvilassamme sekä muuta mukavaa"
                 />
 

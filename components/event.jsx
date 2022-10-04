@@ -5,7 +5,7 @@ const Event = (props) => {
         <div className="max-w-3xl pb-8 mx-auto font-serif md:py-12 lg:py-16">
             <div className="pb-8 border-b md:px-8 md:pb-12 lg:pb-16 border-purple-200 dark:border-gray-750 sm:text-center">
                 <div className="block mb-10">
-                    <img src={props.imgSrc} className="object-cover object-center w-full md:rounded h-72" />
+                    <img src={props.imgSrc} className="object-cover object-center w-full md:rounded h-72 shadow-2xl" />
                 </div>
 
                 <div className="w-full px-6 md:px-0">
