@@ -39,7 +39,6 @@ export default function FoodMenuDisclosure(props) {
                     <div className="py-1">
                         <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
                             <span>{props.title}</span>
-
                             <ChevronDownIcon
                                 className={`${open ? 'rotate-180 transform' : ''
                                     } h-5 w-5 text-purple-500`}

@@ -1,18 +1,20 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import ImageGalleryCard from './image-gallery-card'
+import Fade from "react-reveal/Fade";
 
 const ImageGallery = () => {
     return (
         <section className="bg-gradient-to-t from-purple-200 via-purple-50 to-purple-200">
             <div className="py-14 pl-4 pr-4 mx-auto ml-auto mr-auto bg-top bg-cover max-w-7xl md:px-24 lg:px-12 lg:py-20">
-
-                <div className="mb-10 ml-auto mr-auto bg-top bg-cover max-w-7xl md:mx-auto sm:text-center lg:max-w-2xl md:mb-16">
-                    <h1 className=" font-extralight text-5xl lg:text-7xl mt-10">Sneak peek kuvina</h1>
-                    <div className="w-full md:block hidden max-w-7xl h-px bg-gradient-to-r my-5 from-white via-purple-700 to-white mx-auto"></div>
-                    <div className="w-full md:hidden block max-w-7xl h-px bg-gradient-to-r my-5 from-purple-700 to-white mx-auto"></div>
-                    <p className=" text-gray-700 text-base md:max-w-md mx-auto lg:max-w-none italic">Muutama kuva jotka kertoo enemmän kuin tuhat sanaa siitä minkälainen tunnelma meillä kahvilassa on!</p>
-                </div>
+                <Fade bottom cascade duration={600}>
+                    <div className="mb-10 ml-auto mr-auto bg-top bg-cover max-w-7xl md:mx-auto sm:text-center lg:max-w-2xl md:mb-16">
+                        <h1 className=" font-extralight text-5xl lg:text-7xl mt-10">Sneak peek kuvina</h1>
+                        <div className="w-full md:block hidden max-w-7xl h-px bg-gradient-to-r my-5 from-white via-purple-700 to-white mx-auto"></div>
+                        <div className="w-full md:hidden block max-w-7xl h-px bg-gradient-to-r my-5 from-purple-700 to-white mx-auto"></div>
+                        <p className=" text-gray-700 text-base md:max-w-md mx-auto lg:max-w-none italic">Muutama kuva jotka kertoo enemmän kuin tuhat sanaa siitä minkälainen tunnelma meillä kahvilassa on!</p>
+                    </div>
+                </Fade>
                 <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
 
                     <ImageGalleryCard
@@ -57,9 +59,11 @@ const ImageGallery = () => {
                         text="Kuten huomaamme, Mörri on myös meidän ihka oma linssilude"
                     />
                 </div>
-                <div className="flex justify-center items-center lg:pt-20 pt-14">
-                    <img className="h-auto w-60 animate-slowSpin drop-shadow-2xl" src="/kissa-yingyang.png" alt="" />
-                </div>
+                <Fade bottom cascade duration={600}>
+                    <div className="flex justify-center items-center lg:pt-20 pt-14">
+                        <img className="h-auto w-60 animate-slowSpin drop-shadow-2xl" src="/kissa-yingyang.png" alt="" />
+                    </div>
+                </Fade>
             </div>
         </section>
     )

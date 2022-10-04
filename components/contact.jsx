@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Fade from "react-reveal/Fade";
 
 export default function ContactUs() {
     const [fullname, setFullname] = useState("");
@@ -97,118 +98,121 @@ export default function ContactUs() {
                 <div className="h-20 w-20 rounded-full bg-purple-400 absolute blur-3xl translate-y-44 right-0"></div>
                 <div className="h-24 w-24 rounded-full bg-purple-400 absolute blur-3xl bottom-0 right-0"></div>
 
-                <div className="mx-auto mb-10 md:mt-20">
-                    <h1 className="text-7xl font-bold mt-4 text-white font-AmaticSC">
-                        Ota yhteyttä rohkeasti, koski asiasi mitä tahansa!
-                    </h1>
-                    <p className="text-lg text-white mt-4 font-light">
-                        Otamme vastaan niin risut kuin ruusutkin. Kysymyksiä voi lähettää myös kissa adoptoinneista, sekä ilmottautua tapahtumiin!
-                    </p>
-                </div>
-
-                <form
-                    onSubmit={handleSubmit}
-                    className="rounded-lg shadow-xl flex flex-col px-8 py-8 bg-purple-400"
-                >
-                    <h1 className="text-2xl font-bold text-darkPurple">
-                        Lähetä meille viesti
-                    </h1>
-
-                    <label
-                        htmlFor="fullname"
-                        className="text-darkPurple font-bold mt-8"
+                <Fade bottom cascade duration={600}>
+                    <div className="mx-auto mb-10 md:mt-20">
+                        <h1 className="text-7xl font-bold mt-4 text-white font-AmaticSC">
+                            Ota yhteyttä rohkeasti, koski asiasi mitä tahansa!
+                        </h1>
+                        <p className="text-lg text-white mt-4 font-light">
+                            Otamme vastaan niin risut kuin ruusutkin. Kysymyksiä voi lähettää myös kissa adoptoinneista, sekä ilmottautua tapahtumiin!
+                        </p>
+                    </div>
+                </Fade>
+                <Fade bottom cascade duration={600}>
+                    <form
+                        onSubmit={handleSubmit}
+                        className="rounded-lg shadow-xl flex flex-col px-8 py-8 bg-purple-400"
                     >
-                        Full name
-                    </label>
-                    <input
-                        type="text"
-                        value={fullname}
-                        onChange={(e) => {
-                            setFullname(e.target.value);
-                        }}
-                        name="fullname"
-                        className="bg-purple-50 rounded-lg font-medium py-2 mt-2 pl-4 focus:outline-none text-gray-900"
-                    />
-                    {errors?.fullname && (
-                        <p className="text-red-500">Fullname cannot be empty.</p>
-                    )}
+                        <h1 className="text-2xl font-bold text-darkPurple">
+                            Lähetä meille viesti
+                        </h1>
 
-                    <label
-                        htmlFor="email"
-                        className="text-darkPurple font-bold mt-4"
-                    >
-                        E-mail
-                    </label>
-                    <input
-                        type="email"
-                        name="email"
-                        value={email}
-                        onChange={(e) => {
-                            setEmail(e.target.value);
-                        }}
-                        className="bg-purple-50 rounded-lg font-medium py-2 mt-2 pl-4 focus:outline-none text-gray-900"
-                    />
-                    {errors?.email && (
-                        <p className="text-red-500">Email cannot be empty.</p>
-                    )}
-
-                    <label
-                        htmlFor="subject"
-                        className="text-darkPurple font-bold mt-8"
-                    >
-                        Subject
-                    </label>
-                    <input
-                        type="text"
-                        name="subject"
-                        value={subject}
-                        onChange={(e) => {
-                            setSubject(e.target.value);
-                        }}
-                        className="bg-purple-50 rounded-lg font-medium py-2 mt-2 pl-4 focus:outline-none text-gray-900"
-                    />
-                    {errors?.subject && (
-                        <p className="text-red-500">Subject cannot be empty.</p>
-                    )}
-                    <label
-                        htmlFor="message"
-                        className="text-darkPurple font-bold mt-8"
-                    >
-                        Message
-                    </label>
-                    <textarea
-                        name="message"
-                        value={message}
-                        onChange={(e) => {
-                            setMessage(e.target.value);
-                        }}
-                        className="bg-purple-50 rounded-lg font-medium py-2 mt-2 pl-4 focus:outline-none text-gray-900"
-                    ></textarea>
-                    {errors?.message && (
-                        <p className="text-red-500">Message body cannot be empty.</p>
-                    )}
-                    <div className="flex flex-row items-center justify-start">
-                        <button
-                            type="submit"
-                            className="px-10 mt-8 py-2 bg-darkPurple text-gray-50 font-light rounded-lg text-lg flex flex-row items-center"
+                        <label
+                            htmlFor="fullname"
+                            className="text-darkPurple font-bold mt-8"
                         >
-                            {buttonText}
+                            Full name
+                        </label>
+                        <input
+                            type="text"
+                            value={fullname}
+                            onChange={(e) => {
+                                setFullname(e.target.value);
+                            }}
+                            name="fullname"
+                            className="bg-purple-50 rounded-lg font-medium py-2 mt-2 pl-4 focus:outline-none text-gray-900"
+                        />
+                        {errors?.fullname && (
+                            <p className="text-red-500">Fullname cannot be empty.</p>
+                        )}
 
-                        </button>
-                    </div>
-                    <div className="text-left">
-                        {showSuccessMessage && (
-                            <p className="text-purple-900 font-semibold text-sm my-2">
-                                Kiitos! Vastaamme viestiisi mahdollisimman pian.
-                            </p>
+                        <label
+                            htmlFor="email"
+                            className="text-darkPurple font-bold mt-4"
+                        >
+                            E-mail
+                        </label>
+                        <input
+                            type="email"
+                            name="email"
+                            value={email}
+                            onChange={(e) => {
+                                setEmail(e.target.value);
+                            }}
+                            className="bg-purple-50 rounded-lg font-medium py-2 mt-2 pl-4 focus:outline-none text-gray-900"
+                        />
+                        {errors?.email && (
+                            <p className="text-red-500">Email cannot be empty.</p>
                         )}
-                        {showFailureMessage && (
-                            <p className="text-purple-900">
-                                hups! Jotakin meni pieleen.
-                            </p>
+
+                        <label
+                            htmlFor="subject"
+                            className="text-darkPurple font-bold mt-8"
+                        >
+                            Subject
+                        </label>
+                        <input
+                            type="text"
+                            name="subject"
+                            value={subject}
+                            onChange={(e) => {
+                                setSubject(e.target.value);
+                            }}
+                            className="bg-purple-50 rounded-lg font-medium py-2 mt-2 pl-4 focus:outline-none text-gray-900"
+                        />
+                        {errors?.subject && (
+                            <p className="text-red-500">Subject cannot be empty.</p>
                         )}
-                    </div>
-                </form>
+                        <label
+                            htmlFor="message"
+                            className="text-darkPurple font-bold mt-8"
+                        >
+                            Message
+                        </label>
+                        <textarea
+                            name="message"
+                            value={message}
+                            onChange={(e) => {
+                                setMessage(e.target.value);
+                            }}
+                            className="bg-purple-50 rounded-lg font-medium py-2 mt-2 pl-4 focus:outline-none text-gray-900"
+                        ></textarea>
+                        {errors?.message && (
+                            <p className="text-red-500">Message body cannot be empty.</p>
+                        )}
+                        <div className="flex flex-row items-center justify-start">
+                            <button
+                                type="submit"
+                                className="px-10 mt-8 py-2 bg-darkPurple text-gray-50 font-light rounded-lg text-lg flex flex-row items-center"
+                            >
+                                {buttonText}
+
+                            </button>
+                        </div>
+                        <div className="text-left">
+                            {showSuccessMessage && (
+                                <p className="text-purple-900 font-semibold text-sm my-2">
+                                    Kiitos! Vastaamme viestiisi mahdollisimman pian.
+                                </p>
+                            )}
+                            {showFailureMessage && (
+                                <p className="text-purple-900">
+                                    hups! Jotakin meni pieleen.
+                                </p>
+                            )}
+                        </div>
+                    </form>
+                </Fade>
             </header>
 
         </>

@@ -2,6 +2,7 @@ import React from 'react'
 import CatCard from './cat-card'
 import PrimaryHeader from '../primary-header'
 
+
 const CatShowcase = () => {
     return (
         <section className="w-full py-24 bg-gradient-to-t from-purple-200 via-purple-50 to-purple-200 lg:py-44">
