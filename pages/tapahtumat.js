@@ -2,6 +2,8 @@ import React from 'react'
 import Event from '../components/event'
 import PrimaryHeader from "../components/primary-header"
 import CallToAction from "../components/call-to-action"
+import InfoBlock from '../components/info-block'
+import InfoBlockReverse from '../components/info-block-reverse'
 
 const Tapahtumat = () => {
     return (
@@ -44,9 +46,25 @@ const Tapahtumat = () => {
                     buttonText="Liity klubiin"
                     text="Pysy ajantasalla tapahtumista!"
                 />
-                <div className="flex justify-center items-center lg:pt-20 pt-14">
-                    <img className="h-auto w-60 animate-slowSpin drop-shadow-2xl" src="/kissa-yingyang.png" alt="" />
-                </div>
+
+                <section className="py-14 md:py-20 bg-gradient-to-t from-purple-200 via-purple-50 to-purple-200">
+                    <div className="flex flex-col px-8 mx-auto space-y-12 max-w-7xl xl:px-12">
+                        <InfoBlock
+                            imgSrc="/kissa-no-bg-2.png"
+                            title="Kissakaverimme"
+                            text="Tutustu etukäteen meidän aivan ihaniin karvaisiin kavereihimme jotka pääsetkin pian tapaamaan!"
+                            buttonText="Tutustu"
+                        />
+
+                        <InfoBlockReverse
+                            imgSrc="/kissa-no-bg-1.png"
+                            title="Hyvää ruokaa ja juotavaa"
+                            text="Meiltä erikoiskahvien lisäksi, myös erilaiset leivonnaiset ja pienet suolaiset! Meillä on myös anniskeluoikeus jos esimerkiksi lasi viiniä maistuisi kissojen paijaamisen ohella"
+                            buttonText="Menu"
+                        />
+                    </div >
+                </section>
+
             </section>
         </>
     )
