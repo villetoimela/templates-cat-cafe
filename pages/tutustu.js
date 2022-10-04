@@ -17,10 +17,10 @@ const Tutustu = () => {
             <section className="py-14 md:py-20 bg-gradient-to-t from-purple-200 via-purple-50 to-purple-200">
                 <div className="flex flex-col px-8 mx-auto space-y-12 max-w-7xl xl:px-12">
                     <InfoBlock
-                        imgSrc="/kissa-no-bg-5.png"
-                        title="Käytkö meillä usein?"
-                        text="Liity meidän Cat Clubiin ja saa eksklusiivisia tarjouksia, sekä tietoa esim. tapahtumista ensimmäisenä! "
-                        buttonText="Liity klubiin"
+                        imgSrc="/kissa-no-bg-7.png"
+                        title="Tapahtumia"
+                        text="Katso meidän eri tapahtumat! Meiltä löytyy ajoittain esimerkiksi. Kissajoogaa, sleepover partyjä kahvilassamme sekä muuta mukavaa "
+                        buttonText="Tapahtumat"
                     />
 
                     <InfoBlockReverse
