@@ -22,6 +22,7 @@ export const InfoBlocks = () => {
                     title="Kissakaverimme"
                     text="Tutustu etukäteen meidän aivan ihaniin karvaisiin kavereihimme jotka pääsetkin pian tapaamaan!"
                     buttonText="Tutustu"
+                    url="/tutustu"
                 />
 
                 <InfoBlockReverse
@@ -29,6 +30,7 @@ export const InfoBlocks = () => {
                     title="Hyvää ruokaa ja juotavaa"
                     text="Meiltä erikoiskahvien lisäksi, myös erilaiset leivonnaiset ja pienet suolaiset! Meillä on myös anniskeluoikeus jos esimerkiksi lasi viiniä maistuisi kissojen paijaamisen ohella"
                     buttonText="Menu"
+                    url="menu"
                 />
 
                 <InfoBlock
@@ -36,6 +38,7 @@ export const InfoBlocks = () => {
                     title="Varaa pöytä"
                     text="Pöydän varaamalla varmistat, että tullessasi meiltä löytyy tilaa sinulle ja mahdollisille seuralaisillesi"
                     buttonText="Varaa pöytä"
+                    url="varaa-poyta"
                 />
 
                 <InfoBlockReverse
@@ -43,6 +46,7 @@ export const InfoBlocks = () => {
                     title="Tapahtumia"
                     text="Katso meidän eri tapahtumat! Meiltä löytyy ajoittain esimerkiksi. Kissajoogaa, sleepover partyjä kahvilassamme sekä muuta mukavaa "
                     buttonText="Tapahtumat"
+                    url="tapahtumat"
                 />
 
                 <InfoBlock
@@ -50,6 +54,7 @@ export const InfoBlocks = () => {
                     title="Ota yhteyttä"
                     text="Tahdotko adoptoida kissan, teemme yhteistyötä eri järjestöjen kanssa! Voit ottaa meihin yhteyttä oli asia sitten mikä tahansa!"
                     buttonText="Ota yhteyttä"
+                    url="ota-yhteytta"
                 />
 
             </div>

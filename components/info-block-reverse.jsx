@@ -13,7 +13,7 @@ const InfoBlockReverse = (props) => {
                 <p className="my-5 text-lg text-gray-700 text md:text-left">{props.text}</p>
                 <div className="flex justify-center sm:justify-start ">
                     <ButtonPrimary
-                        url="#"
+                        url={props.url}
                         text={props.buttonText}
                         styles="bg-teal-50 border border-gray-900 hover:bg-teal-100 "
                     />

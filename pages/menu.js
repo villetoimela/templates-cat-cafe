@@ -36,6 +36,7 @@ const Menu = () => {
                 mainText="Oletko kiinnostunut adoptoimaan kissan?"
                 buttonText="Ota yhteyttä"
                 text="Teemme yhteistyötä eri järjestöjen kanssa"
+                url="ota-yheytta"
             />
 
             <section className="py-14 md:py-20 bg-gradient-to-t from-purple-200 via-purple-50 to-purple-200">
@@ -46,6 +47,7 @@ const Menu = () => {
                         title="Varaa pöytä"
                         text="Pöydän varaamalla varmistat, että tullessasi meiltä löytyy tilaa sinulle ja mahdollisille seuralaisillesi"
                         buttonText="Varaa pöytä"
+                        url="varaa-poyta"
                     />
 
                     <InfoBlockReverse
@@ -53,6 +55,7 @@ const Menu = () => {
                         title="Tapahtumia"
                         text="Katso meidän eri tapahtumat! Meiltä löytyy ajoittain esimerkiksi. Kissajoogaa, sleepover partyjä kahvilassamme sekä muuta mukavaa "
                         buttonText="Tapahtumat"
+                        url="tapahtumat"
                     />
 
                 </div>

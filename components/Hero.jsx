@@ -21,9 +21,9 @@ export function Hero() {
                         <ButtonPrimary
                             styles="font-bold text-white bg-pink-500 border-2 border-pink-500 hover:bg-pink-600"
                             text="Varaa pöytä"
-                            url="#"
+                            url="/varaa-poyta"
                         />
-                        <ButtonSecondary text="Ota yhteyttä" url="#" />
+                        <ButtonSecondary text="Ota yhteyttä" url="ota-yhteytta" />
                     </div>
                 </div>
                 <div className="absolute w-screen bottom-0 left-1/2 -translate-x-1/2">

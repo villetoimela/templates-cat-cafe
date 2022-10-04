@@ -20,6 +20,7 @@ export default function Home() {
           mainText="Mitä sinä enää odotat?"
           text="Ja tapaa iloiset kissakaverimme"
           buttonText="Varaa pöytä"
+          url="varaa-poyta"
         />
 
         <ImageGallery />

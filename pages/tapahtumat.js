@@ -42,9 +42,10 @@ const Tapahtumat = () => {
                 />
 
                 <CallToAction
-                    mainText="Etkö ole vielä meidän Cat Clubissa?"
-                    buttonText="Liity klubiin"
-                    text="Pysy ajantasalla tapahtumista!"
+                    mainText="Etkö ole vielä tutustunut kissoihimme?"
+                    buttonText="Tutustu"
+                    text="Opi heti tuntemaan kissoistamme"
+                    url="tutustu"
                 />
 
                 <section className="py-14 md:py-20 bg-gradient-to-t from-purple-200 via-purple-50 to-purple-200">
@@ -54,6 +55,7 @@ const Tapahtumat = () => {
                             title="Kissakaverimme"
                             text="Tutustu etukäteen meidän aivan ihaniin karvaisiin kavereihimme jotka pääsetkin pian tapaamaan!"
                             buttonText="Tutustu"
+                            url="tutustu"
                         />
 
                         <InfoBlockReverse
@@ -61,6 +63,7 @@ const Tapahtumat = () => {
                             title="Hyvää ruokaa ja juotavaa"
                             text="Meiltä erikoiskahvien lisäksi, myös erilaiset leivonnaiset ja pienet suolaiset! Meillä on myös anniskeluoikeus jos esimerkiksi lasi viiniä maistuisi kissojen paijaamisen ohella"
                             buttonText="Menu"
+                            url="menu"
                         />
                     </div >
                 </section>

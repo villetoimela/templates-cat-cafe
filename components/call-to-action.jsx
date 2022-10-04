@@ -13,7 +13,7 @@ const CallToAction = (props) => {
                         <ButtonSecondary
                             styles="lg:w-full mt-10 mb-3 text-base font-normal"
                             text={props.buttonText}
-                            url="#"
+                            url={props.url}
                         />
                         <p className="text-gray-300 mt-2 sm:text-center"> {props.text} ❤️</p>
                     </div>

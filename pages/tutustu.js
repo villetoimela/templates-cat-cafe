@@ -12,6 +12,7 @@ const Tutustu = () => {
                 mainText="Tutustu meiltä saataviin herkkuihin"
                 text="Meiltä myös vegaaniset tuotteet"
                 buttonText="Menu"
+                url="menu"
             />
 
             <section className="py-14 md:py-20 bg-gradient-to-t from-purple-200 via-purple-50 to-purple-200">
@@ -21,6 +22,7 @@ const Tutustu = () => {
                         title="Tapahtumia"
                         text="Katso meidän eri tapahtumat! Meiltä löytyy ajoittain esimerkiksi. Kissajoogaa, sleepover partyjä kahvilassamme sekä muuta mukavaa "
                         buttonText="Tapahtumat"
+                        url="tapahtumat"
                     />
 
                     <InfoBlockReverse
@@ -28,6 +30,7 @@ const Tutustu = () => {
                         title="Ota yhteyttä"
                         text="Tahdotko adoptoida kissan, teemme yhteistyötä eri järjestöjen kanssa! Voit ottaa meihin yhteyttä oli asia sitten mikä tahansa!"
                         buttonText="Ota yhteyttä"
+                        url="ota-yhteytta"
                     />
 
                 </div>

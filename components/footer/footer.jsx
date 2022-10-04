@@ -58,12 +58,11 @@ const Footer = () => {
                     <div className="w-full md:hidden block max-w-7xl h-px bg-gradient-to-r from-purple-700 to-white mx-auto"></div>
 
                     <div className="grid grid-cols-2 gap-4 text-purple-50 p-6 text-sm font-medium sm:grid-cols-3 lg:grid-cols-6">
-                        <FooterLink text="Tutustu" />
-                        <FooterLink text="Menu" />
-                        <FooterLink text="Varaa pöytä" />
-                        <FooterLink text="Tapahtumat" />
-                        <FooterLink text="Liity klubiin" />
-                        <FooterLink text="Ota yhteyttä" />
+                        <FooterLink text="Tutustu" to="tutustu" />
+                        <FooterLink text="Menu" to="menu" />
+                        <FooterLink text="Varaa pöytä" to="varaa-poyta" />
+                        <FooterLink text="Tapahtumat" to="tapahtumat" />
+                        <FooterLink text="Ota yhteyttä" to="ota-yhteytta" />
                     </div>
 
                     <div className="w-full md:block hidden max-w-7xl h-px bg-gradient-to-r from-white via-purple-700 to-white mx-auto"></div>
