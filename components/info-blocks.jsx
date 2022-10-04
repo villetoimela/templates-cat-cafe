@@ -46,13 +46,6 @@ export const InfoBlocks = () => {
                 />
 
                 <InfoBlock
-                    imgSrc="/kissa-no-bg-5.png"
-                    title="Käytkö meillä usein?"
-                    text="Liity meidän Cat Clubiin ja saa eksklusiivisia tarjouksia, sekä tietoa esim. tapahtumista ensimmäisenä! "
-                    buttonText="Liity klubiin"
-                />
-
-                <InfoBlockReverse
                     imgSrc="/kissa-no-bg-10.png"
                     title="Ota yhteyttä"
                     text="Tahdotko adoptoida kissan, teemme yhteistyötä eri järjestöjen kanssa! Voit ottaa meihin yhteyttä oli asia sitten mikä tahansa!"
