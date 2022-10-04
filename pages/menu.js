@@ -1,5 +1,5 @@
 import React from 'react'
-import PrimaryHeader from '../components/cat-showcase/cat-showcase-header'
+import PrimaryHeader from '../components/primary-header'
 import DessertMenuDisclosure from '../components/menu/dessert-menu-disclosure'
 import DrinkMenuDisclosure from '../components/menu/drink-menu-disclosure'
 import FoodMenuDisclosure from '../components/menu/food-menu-disclosure'

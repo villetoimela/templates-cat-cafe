@@ -1,6 +1,6 @@
 import React from 'react'
 import Booking from '../components/booking'
-import PrimaryHeader from '../components/cat-showcase/cat-showcase-header'
+import PrimaryHeader from "../components/primary-header"
 
 const VaraaPoyta = () => {
     return (

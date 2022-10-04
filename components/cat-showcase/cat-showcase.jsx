@@ -1,6 +1,6 @@
 import React from 'react'
 import CatCard from './cat-card'
-import PrimaryHeader from './cat-showcase-header'
+import PrimaryHeader from '../primary-header'
 
 const CatShowcase = () => {
     return (
