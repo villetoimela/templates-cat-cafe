@@ -111,7 +111,7 @@ export default function ContactUs() {
                 <Fade bottom cascade duration={600}>
                     <form
                         onSubmit={handleSubmit}
-                        className="rounded-lg shadow-xl flex flex-col px-8 py-8 bg-purple-400"
+                        className="rounded-lg shadow-xl flex flex-col px-8 py-8 bg-purple-300"
                     >
                         <h1 className="text-2xl font-bold text-darkPurple">
                             Lähetä meille viesti
