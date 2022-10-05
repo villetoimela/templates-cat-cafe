@@ -9,7 +9,7 @@ const ImageGallery = () => {
             <div className="py-14 pl-4 pr-4 mx-auto ml-auto mr-auto bg-top bg-cover max-w-7xl md:px-24 lg:px-12 lg:py-20">
                 <Fade bottom cascade duration={600}>
                     <div className="mb-10 ml-auto mr-auto bg-top bg-cover max-w-7xl md:mx-auto sm:text-center lg:max-w-2xl md:mb-16">
-                        <h1 className=" font-extralight text-5xl lg:text-7xl mt-10">Sneak peek kuvina</h1>
+                        <h1 className=" font-extralight text-6xl font-AmaticSC lg:text-8xl mt-10">Sneak peek kuvina</h1>
                         <div className="w-full md:block hidden max-w-7xl h-px bg-gradient-to-r my-5 from-white via-purple-700 to-white mx-auto"></div>
                         <div className="w-full md:hidden block max-w-7xl h-px bg-gradient-to-r my-5 from-purple-700 to-white mx-auto"></div>
                         <p className=" text-gray-700 text-base md:max-w-md mx-auto lg:max-w-none italic">Muutama kuva jotka kertoo enemmän kuin tuhat sanaa siitä minkälainen tunnelma meillä kahvilassa on!</p>
