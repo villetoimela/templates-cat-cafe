@@ -15,7 +15,7 @@ export const InfoBlocks = () => {
                 <Fade bottom cascade duration={600}>
                     <div className="relative">
                         <h2 className="w-full text-7xl text-center sm:text-8xl lg:text-9xl text-gray-900 font-AmaticSC ">Tervetuloa kissakahvilan sivuille</h2>
-                        <p className="w-full py-10 mx-auto -mt-2 sm:text-4xl md:text-5xl text-3xl text-center text-gray-900 font-light italic sm:max-w-3xl">Valloittavia <span className="text-pink-500">katteja</span> <br /> Mainiota <span className="text-pink-500">ruokaa</span> <br /> iloisia <span className="text-pink-500">ihmisiä</span> </p>
+                        <p className="w-full py-10 mx-auto -mt-2 sm:text-6xl md:text-7xl text-5xl text-center font-AmaticSC text-gray-900 font-light italic sm:max-w-3xl">Valloittavia <span className="text-pink-500">katteja</span> <br /> Mainiota <span className="text-pink-500">ruokaa</span> <br /> iloisia <span className="text-pink-500">ihmisiä</span> </p>
                     </div>
                 </Fade>
 
