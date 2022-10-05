@@ -17,7 +17,7 @@ const InfoBlock = (props) => {
                         <ButtonPrimary
                             url={props.url}
                             text={props.buttonText}
-                            styles="bg-purple-200 border border-gray-900 hover:bg-teal-100"
+                            styles="bg-teal-50 border border-gray-900 hover:bg-teal-100"
                         />
                     </div>
                 </div>
