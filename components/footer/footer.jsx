@@ -54,8 +54,9 @@ const Footer = () => {
                         <Fade bottom cascade duration={600}>
                             <div className="text-purple-200">
                                 <p>Kissakuja 6</p>
-                                <p>40100 Jyväskylä</p>
+                                <p>666 Kissamaailma</p>
                                 <p>040 513 7883</p>
+                                <h2>Sivusto on tehty UX suunnittelua ja koodausharjoittelua varten, <br></br> eli tätä kahvilaa ei ole oikeasti olemassa!</h2>
                             </div>
                         </Fade>
 
